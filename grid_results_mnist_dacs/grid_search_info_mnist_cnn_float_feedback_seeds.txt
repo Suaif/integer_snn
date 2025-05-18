@@ -1,0 +1,33 @@
+Experiment Name: mnist_cnn_float_feedback_seeds
+Total combinations: 10 
+Server: snellius
+Finished grid search in 6153.919118642807 seconds
+Average training time: 615.391912150383 seconds
+
+exp_name: ['mnist_cnn_float_feedback_seeds']
+epochs: [50]
+seed: [100364571, 702546693, 210342476, 712492346, 642731685, 431267089, 613427981, 301420567, 980342676, 416302576]
+train_batch_size: [128]
+test_batch_size: [256]
+float_mode: [True]
+aligned_weights: [False]
+loss_mode: ['feedback']
+num_bits: [8]
+weight_init_bits: [8]
+low_precision_weights: [8]
+activation_bits: [16]
+data_params: [0]
+hidden_param: [[0.5, 0.5]]
+output_param: [[1.5, 1.5]]
+vdecay: [0.5]
+param_factor: [1.0]
+n_filters: [32]
+kernel_size: [5]
+reduce_dim: [True]
+lr_hidden: [0.001]
+lr_output: [0.001]
+lr_scheduler: ['none']
+gradient_clip: [0]
+weight_decay: [False]
+loss_function: [('random', (-1, 2))]
+loss_precision: [32]

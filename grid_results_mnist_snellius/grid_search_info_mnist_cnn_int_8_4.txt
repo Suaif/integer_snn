@@ -1,0 +1,33 @@
+Experiment Name: mnist_cnn_int_8_4
+Total combinations: 72 
+Server: snellius
+Finished grid search in 79832.69008517265 seconds
+Average training time: 1108.7873623702262 seconds
+
+exp_name: ['mnist_cnn_int_8_4']
+epochs: [50]
+seed: [100364571]
+train_batch_size: [128]
+test_batch_size: [256]
+float_mode: [False]
+aligned_weights: [False]
+loss_mode: ['direct']
+num_bits: [8]
+weight_init_bits: [8]
+low_precision_weights: [4]
+activation_bits: [16]
+data_params: [0]
+hidden_param: [[250.0, 500.0]]
+output_param: [[250.0, 500.0]]
+vdecay: [0.5]
+param_factor: [0.08333333333333333, 0.0625]
+n_filters: [32]
+kernel_size: [5]
+reduce_dim: [True]
+lr_hidden: [0.00390625, 0.00048828125, 6.103515625e-05]
+lr_output: [2, 0.25, 0.03125]
+lr_scheduler: ['none']
+gradient_clip: [1, 2]
+weight_decay: [False, True]
+loss_function: [('random', (-1, 2))]
+loss_precision: [32]

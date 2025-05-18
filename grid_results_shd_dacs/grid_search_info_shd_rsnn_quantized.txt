@@ -1,0 +1,34 @@
+Experiment Name: shd_rsnn_quantized
+Total combinations: 192 
+Server: dacs
+Finished grid search in 12699.575196743011 seconds
+Average training time: 66.14362083375454 seconds
+
+exp_name: ['shd_rsnn_quantized']
+epochs: [50]
+seed: [100364571]
+train_batch_size: [128]
+test_batch_size: [256]
+float_mode: [False]
+aligned_weights: [False]
+loss_mode: ['direct']
+num_bits: [16, 20, 32]
+weight_init_bits: [10, 12, 14, 16]
+low_precision_weights: [7, 11]
+activation_bits: [11, 15]
+data_params: [{'data_type': 'frame', 'duration': None, 'n_bins': 4, 'frames': 10, 'split_by': 'time'}]
+hidden_dim_list: [[256]]
+hidden_param: [[2000.0, 4000.0]]
+output_param: [[1600.0, 1600.0]]
+vdecay: [0.5]
+vdecay_rec: [0.5]
+param_factor: [1]
+lr_hidden: [6.103515625e-05, 1.52587890625e-05]
+lr_output: [0.5, 0.125]
+lr_rec: [0]
+lr_scheduler: [0]
+fw_factor: [1.0]
+rec_factor: [1.0]
+gradient_clip: [500]
+loss_function: [('random', [-1, 2])]
+loss_precision: [128]

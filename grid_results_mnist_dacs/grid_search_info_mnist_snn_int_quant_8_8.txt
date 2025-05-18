@@ -1,0 +1,31 @@
+Experiment Name: mnist_snn_int_quant_8_8
+Total combinations: 64 
+Server: dacs
+Finished grid search in 28583.407548666 seconds
+Average training time: 446.61574322357774 seconds
+
+exp_name: ['mnist_snn_int_quant_8_8']
+epochs: [50]
+seed: [100364571]
+train_batch_size: [128]
+test_batch_size: [256]
+float_mode: [False]
+aligned_weights: [False]
+loss_mode: ['direct']
+num_bits: [8]
+weight_init_bits: [6, 8]
+low_precision_weights: [8]
+activation_bits: [16]
+data_params: [0]
+hidden_dim_list: [[100]]
+hidden_param: [[500.0, 1000.0]]
+output_param: [[2000.0, 4000.0]]
+vdecay: [0.5]
+param_factor: [1.0, 4.0]
+lr_hidden: [0.000244140625, 0.0009765625]
+lr_output: [0.5]
+lr_scheduler: ['none']
+gradient_clip: [0, 2, 8, 16]
+weight_decay: [False, True]
+loss_function: [('random', (-1, 2))]
+loss_precision: [128]

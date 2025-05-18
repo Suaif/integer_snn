@@ -1,0 +1,31 @@
+Experiment Name: mnist_snn_float_last_check
+Total combinations: 128 
+Server: dacs
+Finished grid search in 37665.15733861923 seconds
+Average training time: 294.2590417303145 seconds
+
+exp_name: ['mnist_snn_float_last_check']
+epochs: [50]
+seed: [100364571]
+train_batch_size: [128]
+test_batch_size: [256]
+float_mode: [True]
+aligned_weights: [False]
+loss_mode: ['direct', 'feedback']
+num_bits: [4]
+weight_init_bits: [4]
+low_precision_weights: [4]
+activation_bits: [16]
+data_params: [0]
+hidden_dim_list: [[100]]
+hidden_param: [[0.3, 0.3], [0.3, 0.6]]
+output_param: [[0.3, 0.3], [0.3, 0.6]]
+vdecay: [0.5, 1.0]
+param_factor: [1.0]
+lr_hidden: [0.001, 0.003]
+lr_output: [0.001, 0.003]
+lr_scheduler: ['none']
+gradient_clip: [0]
+weight_decay: [False, True]
+loss_function: [('normal', None)]
+loss_precision: [128]

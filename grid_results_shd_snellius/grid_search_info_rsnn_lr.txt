@@ -1,0 +1,27 @@
+
+Grid Search Results sorted by validation accuracy:
+Experiment Name: shd_rsnn_lr
+Total combinations: 144 
+Server: snellius
+Finished grid search in 47253.18244719505 seconds
+Average training time: 328.1471003542344 seconds
+
+exp_name: ['shd_rsnn_lr']
+epochs: [50]
+seed: [100364571]
+float_mode: [True]
+feedback_weights: [False]
+loss_mode: ['direct']
+num_bits: [16]
+weight_init_bits: [16]
+low_precision_weights: [8]
+data_params: [{'data_type': 'frame', 'duration': None, 'n_bins': 4, 'frames': 10, 'split_by': 'time'}]
+hidden_dim_list: [[256]]
+hidden_param: [[0.3, 0.6], [0.5, 1.0], [0.7, 0.7], [1.5, 1.5]]
+output_param: [[0.3, 0.6], [0.5, 1.0], [0.7, 0.7], [1.5, 1.5]]
+vdecay: [0.5]
+vdecay_rec: [0.5]
+param_factor: [1]
+lr_hidden: [0.001]
+lr_output: [0.003, 0.001, 0.0004]
+lr_rec: [0.1, 0.01, 0.003]

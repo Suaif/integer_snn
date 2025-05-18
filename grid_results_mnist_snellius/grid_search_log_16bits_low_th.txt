@@ -1,0 +1,1525 @@
+Grid Search Results sorted by validation accuracy:
+Experiment Name: 16bits_low_th
+Total combinations: 108 
+Finished grid search in 50251.51723408699 seconds
+Average training time: 465.2918262768675 seconds
+Seed: [100364571]
+Epochs: [50]
+Float Mode: [False]
+Algined Weights: [True]
+Loss Mode: ['direct']
+Number of Bits: [16]
+Weight Initialization Bits: [16]
+
+ID: 15
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 16000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_15
+Train Accuracy: 0.72386
+Validation Accuracy: 0.8209
+Test Accuracy: 0.7978
+Best Epoch: 48
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.5621,  0.0000,  1.1781])
+Validation Activations: tensor([4.7496, 0.0000, 0.0953])
+Test Activations: tensor([4.7644, 0.0000, 0.0949])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 3
+snn_params: {'out_layer': (0.5, 16000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 16000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_3
+Train Accuracy: 0.72556
+Validation Accuracy: 0.8193
+Test Accuracy: 0.7978
+Best Epoch: 48
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.8710,  0.0000,  1.7095])
+Validation Activations: tensor([4.7644, 0.0000, 0.0909])
+Test Activations: tensor([4.7777, 0.0000, 0.0853])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 9
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 16000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_9
+Train Accuracy: 0.73024
+Validation Accuracy: 0.8193
+Test Accuracy: 0.7923
+Best Epoch: 49
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.8682,  0.0000,  1.3999])
+Validation Activations: tensor([4.7588, 0.0000, 0.0859])
+Test Activations: tensor([4.7776, 0.0000, 0.0799])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 12
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 16000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_12
+Train Accuracy: 0.70956
+Validation Accuracy: 0.817
+Test Accuracy: 0.7906
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.0497,  0.0000,  1.1778])
+Validation Activations: tensor([4.7296, 0.0000, 0.0688])
+Test Activations: tensor([4.7460, 0.0000, 0.0655])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 0
+snn_params: {'out_layer': (0.5, 16000.0, 16000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 16000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_0
+Train Accuracy: 0.71662
+Validation Accuracy: 0.813
+Test Accuracy: 0.7911
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.3454,  0.0000,  1.6920])
+Validation Activations: tensor([4.7448, 0.0000, 0.0869])
+Test Activations: tensor([4.7600, 0.0000, 0.0828])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 6
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 16000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_6
+Train Accuracy: 0.7302
+Validation Accuracy: 0.8041
+Test Accuracy: 0.7798
+Best Epoch: 49
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.8789,  0.0000,  1.4035])
+Validation Activations: tensor([4.7595, 0.0000, 0.0934])
+Test Activations: tensor([4.7782, 0.0000, 0.0865])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 4
+snn_params: {'out_layer': (0.5, 24000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 24000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_4
+Train Accuracy: 0.69526
+Validation Accuracy: 0.803
+Test Accuracy: 0.7707
+Best Epoch: 47
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([93.4472,  0.0000,  1.5088])
+Validation Activations: tensor([4.7164, 0.0000, 0.0897])
+Test Activations: tensor([4.7357, 0.0000, 0.0824])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 24
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_24
+Train Accuracy: 0.66238
+Validation Accuracy: 0.8004
+Test Accuracy: 0.7763
+Best Epoch: 35
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.1880,  0.0000,  1.4574])
+Validation Activations: tensor([4.7085, 0.0000, 0.0993])
+Test Activations: tensor([4.7341, 0.0000, 0.0959])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 10
+snn_params: {'out_layer': (0.5, 48000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 24000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_10
+Train Accuracy: 0.681
+Validation Accuracy: 0.7994
+Test Accuracy: 0.7664
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.9339,  0.0000,  1.2735])
+Validation Activations: tensor([4.6998, 0.0000, 0.0721])
+Test Activations: tensor([4.7177, 0.0000, 0.0688])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 67
+snn_params: {'out_layer': (0.5, 96000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_67
+Train Accuracy: 0.6786
+Validation Accuracy: 0.7914
+Test Accuracy: 0.7626
+Best Epoch: 17
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([58.3746,  0.0000,  1.0098])
+Validation Activations: tensor([3.2613, 0.0000, 0.0657])
+Test Activations: tensor([3.3159, 0.0000, 0.0623])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 21
+snn_params: {'out_layer': (0.5, 16000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_21
+Train Accuracy: 0.69562
+Validation Accuracy: 0.7905
+Test Accuracy: 0.7767
+Best Epoch: 48
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.3781,  0.0000,  1.7727])
+Validation Activations: tensor([4.7155, 0.0000, 0.0951])
+Test Activations: tensor([4.7364, 0.0000, 0.0993])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 13
+snn_params: {'out_layer': (0.5, 96000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 24000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_13
+Train Accuracy: 0.68154
+Validation Accuracy: 0.7904
+Test Accuracy: 0.7497
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.6902,  0.0000,  1.0965])
+Validation Activations: tensor([4.6891, 0.0000, 0.0577])
+Test Activations: tensor([4.7082, 0.0000, 0.0527])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 7
+snn_params: {'out_layer': (0.5, 48000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 24000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_7
+Train Accuracy: 0.69452
+Validation Accuracy: 0.7869
+Test Accuracy: 0.7455
+Best Epoch: 47
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([93.4082,  0.0000,  1.2652])
+Validation Activations: tensor([4.7145, 0.0000, 0.0750])
+Test Activations: tensor([4.7336, 0.0000, 0.0685])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 1
+snn_params: {'out_layer': (0.5, 24000.0, 24000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 24000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_1
+Train Accuracy: 0.68318
+Validation Accuracy: 0.7854
+Test Accuracy: 0.7514
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.9350,  0.0000,  1.5354])
+Validation Activations: tensor([4.7015, 0.0000, 0.0738])
+Test Activations: tensor([4.7203, 0.0000, 0.0665])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 100
+snn_params: {'out_layer': (0.5, 48000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 192000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_100
+Train Accuracy: 0.69536
+Validation Accuracy: 0.7853
+Test Accuracy: 0.7607
+Best Epoch: 39
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([63.9172,  0.0000,  1.1803])
+Validation Activations: tensor([3.5303, 0.0000, 0.0795])
+Test Activations: tensor([3.5837, 0.0000, 0.0770])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 16
+snn_params: {'out_layer': (0.5, 96000.0, 192000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 24000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_16
+Train Accuracy: 0.68476
+Validation Accuracy: 0.7851
+Test Accuracy: 0.7463
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.6956,  0.0000,  1.0962])
+Validation Activations: tensor([4.6891, 0.0000, 0.0592])
+Test Activations: tensor([4.7077, 0.0000, 0.0553])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 17
+snn_params: {'out_layer': (0.5, 128000.0, 256000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_17
+Train Accuracy: 0.67742
+Validation Accuracy: 0.784
+Test Accuracy: 0.7508
+Best Epoch: 49
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.3271,  0.0000,  1.0407])
+Validation Activations: tensor([4.6746, 0.0000, 0.0576])
+Test Activations: tensor([4.6984, 0.0000, 0.0604])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 105
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_105
+Train Accuracy: 0.6677
+Validation Accuracy: 0.783
+Test Accuracy: 0.7512
+Best Epoch: 31
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([73.0123,  0.0000,  1.0846])
+Validation Activations: tensor([3.9448, 0.0000, 0.0733])
+Test Activations: tensor([3.9846, 0.0000, 0.0724])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 65
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_65
+Train Accuracy: 0.6677
+Validation Accuracy: 0.783
+Test Accuracy: 0.7512
+Best Epoch: 31
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([73.0123,  0.0000,  1.0846])
+Validation Activations: tensor([3.9448, 0.0000, 0.0733])
+Test Activations: tensor([3.9846, 0.0000, 0.0724])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 2
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_2
+Train Accuracy: 0.66586
+Validation Accuracy: 0.7828
+Test Accuracy: 0.7461
+Best Epoch: 42
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([91.9234,  0.0000,  1.4385])
+Validation Activations: tensor([4.6717, 0.0000, 0.0810])
+Test Activations: tensor([4.6987, 0.0000, 0.0723])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 42
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_42
+Train Accuracy: 0.66586
+Validation Accuracy: 0.7828
+Test Accuracy: 0.7461
+Best Epoch: 42
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([91.9234,  0.0000,  1.4385])
+Validation Activations: tensor([4.6717, 0.0000, 0.0810])
+Test Activations: tensor([4.6987, 0.0000, 0.0723])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 94
+snn_params: {'out_layer': (0.5, 24000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 192000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_94
+Train Accuracy: 0.69288
+Validation Accuracy: 0.7823
+Test Accuracy: 0.7581
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([66.5284,  0.0000,  1.3119])
+Validation Activations: tensor([3.6709, 0.0000, 0.0796])
+Test Activations: tensor([3.7123, 0.0000, 0.0772])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 103
+snn_params: {'out_layer': (0.5, 96000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 192000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_103
+Train Accuracy: 0.69348
+Validation Accuracy: 0.7808
+Test Accuracy: 0.7631
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([65.8507,  0.0000,  1.0440])
+Validation Activations: tensor([3.6076, 0.0000, 0.0652])
+Test Activations: tensor([3.6507, 0.0000, 0.0629])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 70
+snn_params: {'out_layer': (0.5, 96000.0, 192000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_70
+Train Accuracy: 0.6778
+Validation Accuracy: 0.7802
+Test Accuracy: 0.7546
+Best Epoch: 17
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([58.3842,  0.0000,  1.0114])
+Validation Activations: tensor([3.2620, 0.0000, 0.0594])
+Test Activations: tensor([3.3165, 0.0000, 0.0591])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 95
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 256000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_95
+Train Accuracy: 0.71014
+Validation Accuracy: 0.78
+Test Accuracy: 0.7622
+Best Epoch: 49
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([60.6597,  0.0000,  1.2765])
+Validation Activations: tensor([3.3942, 0.0000, 0.0867])
+Test Activations: tensor([3.4516, 0.0000, 0.0874])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 33
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_33
+Train Accuracy: 0.67486
+Validation Accuracy: 0.7791
+Test Accuracy: 0.7436
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.2478,  0.0000,  1.2162])
+Validation Activations: tensor([4.7112, 0.0000, 0.0791])
+Test Activations: tensor([4.7337, 0.0000, 0.0759])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 106
+snn_params: {'out_layer': (0.5, 96000.0, 192000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 192000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_106
+Train Accuracy: 0.67774
+Validation Accuracy: 0.779
+Test Accuracy: 0.758
+Best Epoch: 48
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([73.6090,  0.0000,  1.0125])
+Validation Activations: tensor([3.9553, 0.0000, 0.0674])
+Test Activations: tensor([3.9960, 0.0000, 0.0638])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 54
+snn_params: {'out_layer': (0.5, 16000.0, 16000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_54
+Train Accuracy: 0.65598
+Validation Accuracy: 0.7785
+Test Accuracy: 0.7543
+Best Epoch: 12
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([63.0538,  0.0000,  1.4249])
+Validation Activations: tensor([3.5504, 0.0000, 0.0913])
+Test Activations: tensor([3.6052, 0.0000, 0.0863])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 92
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 256000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_92
+Train Accuracy: 0.71716
+Validation Accuracy: 0.7783
+Test Accuracy: 0.7592
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([52.7433,  0.0000,  1.3143])
+Validation Activations: tensor([3.0357, 0.0000, 0.0856])
+Test Activations: tensor([3.0909, 0.0000, 0.0902])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 58
+snn_params: {'out_layer': (0.5, 24000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_58
+Train Accuracy: 0.68442
+Validation Accuracy: 0.7775
+Test Accuracy: 0.7572
+Best Epoch: 17
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([58.9633,  0.0000,  1.3154])
+Validation Activations: tensor([3.3395, 0.0000, 0.0837])
+Test Activations: tensor([3.3960, 0.0000, 0.0790])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 27
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_27
+Train Accuracy: 0.66034
+Validation Accuracy: 0.7769
+Test Accuracy: 0.7426
+Best Epoch: 35
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.2226,  0.0000,  1.4495])
+Validation Activations: tensor([4.7092, 0.0000, 0.0947])
+Test Activations: tensor([4.7354, 0.0000, 0.0901])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 55
+snn_params: {'out_layer': (0.5, 24000.0, 24000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_55
+Train Accuracy: 0.68466
+Validation Accuracy: 0.7768
+Test Accuracy: 0.7572
+Best Epoch: 17
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([58.9342,  0.0000,  1.3126])
+Validation Activations: tensor([3.3384, 0.0000, 0.0829])
+Test Activations: tensor([3.3947, 0.0000, 0.0804])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 90
+snn_params: {'out_layer': (0.5, 16000.0, 16000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_90
+Train Accuracy: 0.70814
+Validation Accuracy: 0.7757
+Test Accuracy: 0.7559
+Best Epoch: 16
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([43.6536,  0.0000,  1.4238])
+Validation Activations: tensor([2.5887, 0.0000, 0.0901])
+Test Activations: tensor([2.6731, 0.0000, 0.0924])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 36
+snn_params: {'out_layer': (0.5, 16000.0, 16000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_36
+Train Accuracy: 0.68384
+Validation Accuracy: 0.7756
+Test Accuracy: 0.7364
+Best Epoch: 49
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.6394,  0.0000,  1.7186])
+Validation Activations: tensor([4.6890, 0.0000, 0.0926])
+Test Activations: tensor([4.7151, 0.0000, 0.0869])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 101
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 256000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_101
+Train Accuracy: 0.71138
+Validation Accuracy: 0.7747
+Test Accuracy: 0.7477
+Best Epoch: 43
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([55.0285,  0.0000,  1.1868])
+Validation Activations: tensor([3.1151, 0.0000, 0.0799])
+Test Activations: tensor([3.1708, 0.0000, 0.0841])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 57
+snn_params: {'out_layer': (0.5, 16000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_57
+Train Accuracy: 0.6613
+Validation Accuracy: 0.7747
+Test Accuracy: 0.7539
+Best Epoch: 12
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([63.0588,  0.0000,  1.4267])
+Validation Activations: tensor([3.5492, 0.0000, 0.0875])
+Test Activations: tensor([3.6053, 0.0000, 0.0798])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 30
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_30
+Train Accuracy: 0.67732
+Validation Accuracy: 0.7734
+Test Accuracy: 0.7343
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.2259,  0.0000,  1.2148])
+Validation Activations: tensor([4.7102, 0.0000, 0.0774])
+Test Activations: tensor([4.7326, 0.0000, 0.0738])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 77
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_77
+Train Accuracy: 0.69724
+Validation Accuracy: 0.7727
+Test Accuracy: 0.7445
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([62.7343,  0.0000,  1.4206])
+Validation Activations: tensor([3.6732, 0.0000, 0.0819])
+Test Activations: tensor([3.7317, 0.0000, 0.0761])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 93
+snn_params: {'out_layer': (0.5, 16000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_93
+Train Accuracy: 0.6727
+Validation Accuracy: 0.7725
+Test Accuracy: 0.7446
+Best Epoch: 28
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([68.8418,  0.0000,  1.4179])
+Validation Activations: tensor([3.7839, 0.0000, 0.0718])
+Test Activations: tensor([3.8276, 0.0000, 0.0730])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 39
+snn_params: {'out_layer': (0.5, 16000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_39
+Train Accuracy: 0.6847
+Validation Accuracy: 0.7725
+Test Accuracy: 0.7339
+Best Epoch: 49
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.6301,  0.0000,  1.7272])
+Validation Activations: tensor([4.6878, 0.0000, 0.0888])
+Test Activations: tensor([4.7148, 0.0000, 0.0870])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 8
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_8
+Train Accuracy: 0.67496
+Validation Accuracy: 0.7716
+Test Accuracy: 0.7317
+Best Epoch: 49
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.5777,  0.0000,  1.2009])
+Validation Activations: tensor([4.6851, 0.0000, 0.0751])
+Test Activations: tensor([4.7102, 0.0000, 0.0724])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 48
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_48
+Train Accuracy: 0.67496
+Validation Accuracy: 0.7716
+Test Accuracy: 0.7317
+Best Epoch: 49
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.5777,  0.0000,  1.2009])
+Validation Activations: tensor([4.6851, 0.0000, 0.0751])
+Test Activations: tensor([4.7102, 0.0000, 0.0724])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 91
+snn_params: {'out_layer': (0.5, 24000.0, 24000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 192000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_91
+Train Accuracy: 0.69118
+Validation Accuracy: 0.7711
+Test Accuracy: 0.7473
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([66.6300,  0.0000,  1.3119])
+Validation Activations: tensor([3.6768, 0.0000, 0.0789])
+Test Activations: tensor([3.7169, 0.0000, 0.0737])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 20
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_20
+Train Accuracy: 0.6726
+Validation Accuracy: 0.7708
+Test Accuracy: 0.751
+Best Epoch: 7
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([41.6543,  0.0000,  1.2022])
+Validation Activations: tensor([2.4999, 0.0000, 0.0748])
+Test Activations: tensor([2.5759, 0.0000, 0.0788])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 60
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_60
+Train Accuracy: 0.6726
+Validation Accuracy: 0.7708
+Test Accuracy: 0.751
+Best Epoch: 7
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([41.6543,  0.0000,  1.2022])
+Validation Activations: tensor([2.4999, 0.0000, 0.0748])
+Test Activations: tensor([2.5759, 0.0000, 0.0788])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 97
+snn_params: {'out_layer': (0.5, 48000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 192000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_97
+Train Accuracy: 0.70308
+Validation Accuracy: 0.7705
+Test Accuracy: 0.7494
+Best Epoch: 33
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([56.3541,  0.0000,  1.2107])
+Validation Activations: tensor([3.1799, 0.0000, 0.0898])
+Test Activations: tensor([3.2416, 0.0000, 0.0882])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 76
+snn_params: {'out_layer': (0.5, 24000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_76
+Train Accuracy: 0.69594
+Validation Accuracy: 0.7705
+Test Accuracy: 0.752
+Best Epoch: 29
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([60.0351,  0.0000,  1.4593])
+Validation Activations: tensor([3.5440, 0.0000, 0.0857])
+Test Activations: tensor([3.6232, 0.0000, 0.0838])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 14
+snn_params: {'out_layer': (0.5, 128000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_14
+Train Accuracy: 0.65752
+Validation Accuracy: 0.7705
+Test Accuracy: 0.7355
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([91.5508,  0.0000,  1.0575])
+Validation Activations: tensor([4.6613, 0.0000, 0.0767])
+Test Activations: tensor([4.6807, 0.0000, 0.0924])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 56
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_56
+Train Accuracy: 0.68486
+Validation Accuracy: 0.7694
+Test Accuracy: 0.7548
+Best Epoch: 26
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([64.7436,  0.0000,  1.2498])
+Validation Activations: tensor([3.5868, 0.0000, 0.0803])
+Test Activations: tensor([3.6292, 0.0000, 0.0727])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 96
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_96
+Train Accuracy: 0.68486
+Validation Accuracy: 0.7694
+Test Accuracy: 0.7548
+Best Epoch: 26
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([64.7436,  0.0000,  1.2498])
+Validation Activations: tensor([3.5868, 0.0000, 0.0803])
+Test Activations: tensor([3.6292, 0.0000, 0.0727])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 62
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_62
+Train Accuracy: 0.6861
+Validation Accuracy: 0.7688
+Test Accuracy: 0.7416
+Best Epoch: 28
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([67.8881,  0.0000,  1.0918])
+Validation Activations: tensor([3.7102, 0.0000, 0.0653])
+Test Activations: tensor([3.7552, 0.0000, 0.0688])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 102
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_102
+Train Accuracy: 0.6861
+Validation Accuracy: 0.7688
+Test Accuracy: 0.7416
+Best Epoch: 28
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([67.8881,  0.0000,  1.0918])
+Validation Activations: tensor([3.7102, 0.0000, 0.0653])
+Test Activations: tensor([3.7552, 0.0000, 0.0688])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 32
+snn_params: {'out_layer': (0.5, 128000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_32
+Train Accuracy: 0.67888
+Validation Accuracy: 0.7682
+Test Accuracy: 0.7496
+Best Epoch: 10
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([54.3454,  0.0000,  0.9577])
+Validation Activations: tensor([3.0590, 0.0000, 0.0618])
+Test Activations: tensor([3.1123, 0.0000, 0.0591])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 23
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_23
+Train Accuracy: 0.66328
+Validation Accuracy: 0.7681
+Test Accuracy: 0.7398
+Best Epoch: 12
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([62.6059,  0.0000,  1.2336])
+Validation Activations: tensor([3.5081, 0.0000, 0.0746])
+Test Activations: tensor([3.5639, 0.0000, 0.0643])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 63
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_63
+Train Accuracy: 0.66328
+Validation Accuracy: 0.7681
+Test Accuracy: 0.7398
+Best Epoch: 12
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([62.6059,  0.0000,  1.2336])
+Validation Activations: tensor([3.5081, 0.0000, 0.0746])
+Test Activations: tensor([3.5639, 0.0000, 0.0643])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 107
+snn_params: {'out_layer': (0.5, 128000.0, 256000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 256000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_107
+Train Accuracy: 0.69906
+Validation Accuracy: 0.7676
+Test Accuracy: 0.7477
+Best Epoch: 37
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([49.3200,  0.0000,  1.1138])
+Validation Activations: tensor([2.8061, 0.0000, 0.0759])
+Test Activations: tensor([2.8734, 0.0000, 0.0734])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 11
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_11
+Train Accuracy: 0.65796
+Validation Accuracy: 0.7673
+Test Accuracy: 0.7244
+Best Epoch: 44
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.0930,  0.0000,  1.2135])
+Validation Activations: tensor([4.6702, 0.0000, 0.0714])
+Test Activations: tensor([4.6994, 0.0000, 0.0638])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 51
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_51
+Train Accuracy: 0.65796
+Validation Accuracy: 0.7673
+Test Accuracy: 0.7244
+Best Epoch: 44
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([92.0930,  0.0000,  1.2135])
+Validation Activations: tensor([4.6702, 0.0000, 0.0714])
+Test Activations: tensor([4.6994, 0.0000, 0.0638])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 74
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_74
+Train Accuracy: 0.69542
+Validation Accuracy: 0.7667
+Test Accuracy: 0.7416
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([62.9357,  0.0000,  1.4208])
+Validation Activations: tensor([3.6863, 0.0000, 0.0765])
+Test Activations: tensor([3.7437, 0.0000, 0.0726])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 98
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 256000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_98
+Train Accuracy: 0.70768
+Validation Accuracy: 0.7661
+Test Accuracy: 0.7475
+Best Epoch: 45
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([56.9700,  0.0000,  1.1755])
+Validation Activations: tensor([3.2032, 0.0000, 0.0802])
+Test Activations: tensor([3.2610, 0.0000, 0.0728])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 73
+snn_params: {'out_layer': (0.5, 24000.0, 24000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_73
+Train Accuracy: 0.69402
+Validation Accuracy: 0.7644
+Test Accuracy: 0.7381
+Best Epoch: 29
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([60.2310,  0.0000,  1.4609])
+Validation Activations: tensor([3.5561, 0.0000, 0.0893])
+Test Activations: tensor([3.6373, 0.0000, 0.0819])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 45
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_45
+Train Accuracy: 0.65766
+Validation Accuracy: 0.7636
+Test Accuracy: 0.7232
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([91.8084,  0.0000,  1.4427])
+Validation Activations: tensor([4.6750, 0.0000, 0.0759])
+Test Activations: tensor([4.6933, 0.0000, 0.0674])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 80
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_80
+Train Accuracy: 0.69086
+Validation Accuracy: 0.7636
+Test Accuracy: 0.7381
+Best Epoch: 39
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([61.6100,  0.0000,  1.3091])
+Validation Activations: tensor([3.5889, 0.0000, 0.0792])
+Test Activations: tensor([3.6707, 0.0000, 0.0769])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 5
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_5
+Train Accuracy: 0.65766
+Validation Accuracy: 0.7636
+Test Accuracy: 0.7232
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([91.8084,  0.0000,  1.4427])
+Validation Activations: tensor([4.6750, 0.0000, 0.0759])
+Test Activations: tensor([4.6933, 0.0000, 0.0674])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 61
+snn_params: {'out_layer': (0.5, 48000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_61
+Train Accuracy: 0.67902
+Validation Accuracy: 0.7632
+Test Accuracy: 0.7389
+Best Epoch: 19
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([63.8638,  0.0000,  1.1512])
+Validation Activations: tensor([3.5460, 0.0000, 0.0866])
+Test Activations: tensor([3.5900, 0.0000, 0.0855])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 35
+snn_params: {'out_layer': (0.5, 128000.0, 256000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_35
+Train Accuracy: 0.6792
+Validation Accuracy: 0.7627
+Test Accuracy: 0.7482
+Best Epoch: 10
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([54.3520,  0.0000,  0.9562])
+Validation Activations: tensor([3.0584, 0.0000, 0.0607])
+Test Activations: tensor([3.1122, 0.0000, 0.0583])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 71
+snn_params: {'out_layer': (0.5, 128000.0, 256000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_71
+Train Accuracy: 0.66126
+Validation Accuracy: 0.7624
+Test Accuracy: 0.7292
+Best Epoch: 33
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([75.1834,  0.0000,  0.9427])
+Validation Activations: tensor([4.0262, 0.0000, 0.0599])
+Test Activations: tensor([4.0735, 0.0000, 0.0578])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 104
+snn_params: {'out_layer': (0.5, 128000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 256000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_104
+Train Accuracy: 0.70056
+Validation Accuracy: 0.7619
+Test Accuracy: 0.7424
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([53.1834,  0.0000,  1.0853])
+Validation Activations: tensor([3.0081, 0.0000, 0.0730])
+Test Activations: tensor([3.0596, 0.0000, 0.0700])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 25
+snn_params: {'out_layer': (0.5, 48000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_25
+Train Accuracy: 0.65794
+Validation Accuracy: 0.7612
+Test Accuracy: 0.7385
+Best Epoch: 6
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([47.1446,  0.0000,  1.1107])
+Validation Activations: tensor([2.7837, 0.0000, 0.0666])
+Test Activations: tensor([2.8560, 0.0000, 0.0658])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 28
+snn_params: {'out_layer': (0.5, 48000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_28
+Train Accuracy: 0.6569
+Validation Accuracy: 0.7607
+Test Accuracy: 0.7378
+Best Epoch: 6
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([47.1346,  0.0000,  1.1092])
+Validation Activations: tensor([2.7832, 0.0000, 0.0658])
+Test Activations: tensor([2.8558, 0.0000, 0.0668])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 64
+snn_params: {'out_layer': (0.5, 48000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_64
+Train Accuracy: 0.67676
+Validation Accuracy: 0.7603
+Test Accuracy: 0.7372
+Best Epoch: 17
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([58.7503,  0.0000,  1.1577])
+Validation Activations: tensor([3.3069, 0.0000, 0.0696])
+Test Activations: tensor([3.3618, 0.0000, 0.0693])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 72
+snn_params: {'out_layer': (0.5, 16000.0, 16000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_72
+Train Accuracy: 0.6935
+Validation Accuracy: 0.76
+Test Accuracy: 0.7403
+Best Epoch: 16
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([51.1769,  0.0000,  1.4944])
+Validation Activations: tensor([3.1108, 0.0000, 0.0783])
+Test Activations: tensor([3.2225, 0.0000, 0.0776])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 68
+snn_params: {'out_layer': (0.5, 128000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_68
+Train Accuracy: 0.6827
+Validation Accuracy: 0.7596
+Test Accuracy: 0.7301
+Best Epoch: 31
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([71.9807,  0.0000,  0.9467])
+Validation Activations: tensor([3.8821, 0.0000, 0.0523])
+Test Activations: tensor([3.9296, 0.0000, 0.0506])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 75
+snn_params: {'out_layer': (0.5, 16000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_75
+Train Accuracy: 0.69284
+Validation Accuracy: 0.7574
+Test Accuracy: 0.7425
+Best Epoch: 16
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([51.0616,  0.0000,  1.4919])
+Validation Activations: tensor([3.0998, 0.0000, 0.0834])
+Test Activations: tensor([3.2129, 0.0000, 0.0845])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 83
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_83
+Train Accuracy: 0.68854
+Validation Accuracy: 0.7557
+Test Accuracy: 0.7302
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([64.0536,  0.0000,  1.3039])
+Validation Activations: tensor([3.7185, 0.0000, 0.0726])
+Test Activations: tensor([3.7714, 0.0000, 0.0723])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 18
+snn_params: {'out_layer': (0.5, 16000.0, 16000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 16000.0, 32000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_18
+Train Accuracy: 0.63396
+Validation Accuracy: 0.7556
+Test Accuracy: 0.7205
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([95.8401,  0.0000,  1.7772])
+Validation Activations: tensor([4.7925, 0.0000, 0.1043])
+Test Activations: tensor([4.8089, 0.0000, 0.0999])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 99
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_99
+Train Accuracy: 0.67908
+Validation Accuracy: 0.7541
+Test Accuracy: 0.7319
+Best Epoch: 28
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([68.4297,  0.0000,  1.2430])
+Validation Activations: tensor([3.7508, 0.0000, 0.0758])
+Test Activations: tensor([3.7960, 0.0000, 0.0763])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 59
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_59
+Train Accuracy: 0.67908
+Validation Accuracy: 0.7541
+Test Accuracy: 0.7319
+Best Epoch: 28
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([68.4297,  0.0000,  1.2430])
+Validation Activations: tensor([3.7508, 0.0000, 0.0758])
+Test Activations: tensor([3.7960, 0.0000, 0.0763])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 38
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_38
+Train Accuracy: 0.67986
+Validation Accuracy: 0.7532
+Test Accuracy: 0.7396
+Best Epoch: 16
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([52.5805,  0.0000,  1.3689])
+Validation Activations: tensor([3.1622, 0.0000, 0.0798])
+Test Activations: tensor([3.2700, 0.0000, 0.0782])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 78
+snn_params: {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_78
+Train Accuracy: 0.67986
+Validation Accuracy: 0.7532
+Test Accuracy: 0.7396
+Best Epoch: 16
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([52.5805,  0.0000,  1.3689])
+Validation Activations: tensor([3.1622, 0.0000, 0.0798])
+Test Activations: tensor([3.2700, 0.0000, 0.0782])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 82
+snn_params: {'out_layer': (0.5, 48000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_82
+Train Accuracy: 0.68518
+Validation Accuracy: 0.7532
+Test Accuracy: 0.7277
+Best Epoch: 29
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([61.4240,  0.0000,  1.3298])
+Validation Activations: tensor([3.5964, 0.0000, 0.0779])
+Test Activations: tensor([3.6697, 0.0000, 0.0704])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 79
+snn_params: {'out_layer': (0.5, 48000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_79
+Train Accuracy: 0.68408
+Validation Accuracy: 0.7511
+Test Accuracy: 0.7246
+Best Epoch: 28
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([59.6669,  0.0000,  1.3314])
+Validation Activations: tensor([3.5165, 0.0000, 0.0792])
+Test Activations: tensor([3.5904, 0.0000, 0.0773])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 66
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_66
+Train Accuracy: 0.66376
+Validation Accuracy: 0.751
+Test Accuracy: 0.7231
+Best Epoch: 13
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([65.6808,  0.0000,  1.0653])
+Validation Activations: tensor([3.6398, 0.0000, 0.0748])
+Test Activations: tensor([3.6796, 0.0000, 0.0664])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 26
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_26
+Train Accuracy: 0.66376
+Validation Accuracy: 0.751
+Test Accuracy: 0.7231
+Best Epoch: 13
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([65.6808,  0.0000,  1.0653])
+Validation Activations: tensor([3.6398, 0.0000, 0.0748])
+Test Activations: tensor([3.6796, 0.0000, 0.0664])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 22
+snn_params: {'out_layer': (0.5, 24000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_22
+Train Accuracy: 0.64974
+Validation Accuracy: 0.7495
+Test Accuracy: 0.7176
+Best Epoch: 48
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([94.4026,  0.0000,  1.5804])
+Validation Activations: tensor([4.7253, 0.0000, 0.0872])
+Test Activations: tensor([4.7445, 0.0000, 0.0814])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 19
+snn_params: {'out_layer': (0.5, 24000.0, 24000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_19
+Train Accuracy: 0.66136
+Validation Accuracy: 0.7485
+Test Accuracy: 0.7231
+Best Epoch: 6
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([46.9903,  0.0000,  1.2689])
+Validation Activations: tensor([2.8151, 0.0000, 0.0826])
+Test Activations: tensor([2.8865, 0.0000, 0.0781])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 31
+snn_params: {'out_layer': (0.5, 96000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_31
+Train Accuracy: 0.62842
+Validation Accuracy: 0.7442
+Test Accuracy: 0.7275
+Best Epoch: 5
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([42.5730,  0.0000,  0.9908])
+Validation Activations: tensor([2.5191, 0.0000, 0.0609])
+Test Activations: tensor([2.5794, 0.0000, 0.0664])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 34
+snn_params: {'out_layer': (0.5, 96000.0, 192000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 24000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_34
+Train Accuracy: 0.62816
+Validation Accuracy: 0.7436
+Test Accuracy: 0.7258
+Best Epoch: 5
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([42.5650,  0.0000,  0.9899])
+Validation Activations: tensor([2.5181, 0.0000, 0.0622])
+Test Activations: tensor([2.5789, 0.0000, 0.0650])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 40
+snn_params: {'out_layer': (0.5, 24000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_40
+Train Accuracy: 0.6049
+Validation Accuracy: 0.7423
+Test Accuracy: 0.705
+Best Epoch: 41
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([89.6053,  0.0000,  1.5761])
+Validation Activations: tensor([4.6215, 0.0000, 0.0831])
+Test Activations: tensor([4.6420, 0.0000, 0.0760])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 43
+snn_params: {'out_layer': (0.5, 48000.0, 48000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_43
+Train Accuracy: 0.63302
+Validation Accuracy: 0.7416
+Test Accuracy: 0.7041
+Best Epoch: 48
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([90.6557,  0.0000,  1.3424])
+Validation Activations: tensor([4.6481, 0.0000, 0.0746])
+Test Activations: tensor([4.6681, 0.0000, 0.0679])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 85
+snn_params: {'out_layer': (0.5, 96000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_85
+Train Accuracy: 0.67058
+Validation Accuracy: 0.7385
+Test Accuracy: 0.7114
+Best Epoch: 28
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([61.1037,  0.0000,  1.2138])
+Validation Activations: tensor([3.5729, 0.0000, 0.0713])
+Test Activations: tensor([3.6440, 0.0000, 0.0624])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 86
+snn_params: {'out_layer': (0.5, 128000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_86
+Train Accuracy: 0.6767
+Validation Accuracy: 0.7381
+Test Accuracy: 0.7088
+Best Epoch: 39
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([62.9542,  0.0000,  1.1879])
+Validation Activations: tensor([3.6380, 0.0000, 0.0642])
+Test Activations: tensor([3.7173, 0.0000, 0.0646])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 47
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_47
+Train Accuracy: 0.66454
+Validation Accuracy: 0.7378
+Test Accuracy: 0.7202
+Best Epoch: 16
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([54.0887,  0.0000,  1.2247])
+Validation Activations: tensor([3.2316, 0.0000, 0.0669])
+Test Activations: tensor([3.3357, 0.0000, 0.0657])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 87
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_87
+Train Accuracy: 0.66454
+Validation Accuracy: 0.7378
+Test Accuracy: 0.7202
+Best Epoch: 16
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([54.0887,  0.0000,  1.2247])
+Validation Activations: tensor([3.2316, 0.0000, 0.0669])
+Test Activations: tensor([3.3357, 0.0000, 0.0657])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 89
+snn_params: {'out_layer': (0.5, 128000.0, 256000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 128000.0, 128000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_89
+Train Accuracy: 0.67686
+Validation Accuracy: 0.7372
+Test Accuracy: 0.7077
+Best Epoch: 39
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([62.9453,  0.0000,  1.1875])
+Validation Activations: tensor([3.6378, 0.0000, 0.0598])
+Test Activations: tensor([3.7169, 0.0000, 0.0603])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 41
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_41
+Train Accuracy: 0.6754
+Validation Accuracy: 0.7362
+Test Accuracy: 0.7105
+Best Epoch: 17
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([55.4571,  0.0000,  1.3729])
+Validation Activations: tensor([3.3204, 0.0000, 0.0701])
+Test Activations: tensor([3.4138, 0.0000, 0.0688])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 81
+snn_params: {'out_layer': (0.5, 32000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_81
+Train Accuracy: 0.6754
+Validation Accuracy: 0.7362
+Test Accuracy: 0.7105
+Best Epoch: 17
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([55.4571,  0.0000,  1.3729])
+Validation Activations: tensor([3.3204, 0.0000, 0.0701])
+Test Activations: tensor([3.4138, 0.0000, 0.0688])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 88
+snn_params: {'out_layer': (0.5, 96000.0, 192000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 96000.0, 96000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_88
+Train Accuracy: 0.66598
+Validation Accuracy: 0.7352
+Test Accuracy: 0.7088
+Best Epoch: 32
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([67.4491,  0.0000,  1.1903])
+Validation Activations: tensor([3.8509, 0.0000, 0.0724])
+Test Activations: tensor([3.9065, 0.0000, 0.0729])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 49
+snn_params: {'out_layer': (0.5, 96000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_49
+Train Accuracy: 0.63546
+Validation Accuracy: 0.7341
+Test Accuracy: 0.6851
+Best Epoch: 48
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([90.2930,  0.0000,  1.1408])
+Validation Activations: tensor([4.6313, 0.0000, 0.0630])
+Test Activations: tensor([4.6521, 0.0000, 0.0556])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 44
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_44
+Train Accuracy: 0.66202
+Validation Accuracy: 0.734
+Test Accuracy: 0.7083
+Best Epoch: 17
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([56.9666,  0.0000,  1.2327])
+Validation Activations: tensor([3.3829, 0.0000, 0.0653])
+Test Activations: tensor([3.4736, 0.0000, 0.0651])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 84
+snn_params: {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_84
+Train Accuracy: 0.66202
+Validation Accuracy: 0.734
+Test Accuracy: 0.7083
+Best Epoch: 17
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([56.9666,  0.0000,  1.2327])
+Validation Activations: tensor([3.3829, 0.0000, 0.0653])
+Test Activations: tensor([3.4736, 0.0000, 0.0651])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 37
+snn_params: {'out_layer': (0.5, 24000.0, 24000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_37
+Train Accuracy: 0.67156
+Validation Accuracy: 0.7326
+Test Accuracy: 0.705
+Best Epoch: 13
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([56.7857,  0.0000,  1.3966])
+Validation Activations: tensor([3.4295, 0.0000, 0.0775])
+Test Activations: tensor([3.4968, 0.0000, 0.0733])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 52
+snn_params: {'out_layer': (0.5, 96000.0, 192000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_52
+Train Accuracy: 0.63926
+Validation Accuracy: 0.7315
+Test Accuracy: 0.7041
+Best Epoch: 15
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([66.6038,  0.0000,  1.1155])
+Validation Activations: tensor([3.8328, 0.0000, 0.0660])
+Test Activations: tensor([3.9052, 0.0000, 0.0645])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 50
+snn_params: {'out_layer': (0.5, 128000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_50
+Train Accuracy: 0.65114
+Validation Accuracy: 0.7246
+Test Accuracy: 0.6984
+Best Epoch: 18
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([61.3009,  0.0000,  1.0985])
+Validation Activations: tensor([3.5957, 0.0000, 0.0587])
+Test Activations: tensor([3.6746, 0.0000, 0.0516])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 46
+snn_params: {'out_layer': (0.5, 48000.0, 96000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 48000.0, 48000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_46
+Train Accuracy: 0.63506
+Validation Accuracy: 0.7226
+Test Accuracy: 0.6788
+Best Epoch: 48
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([90.6359,  0.0000,  1.3449])
+Validation Activations: tensor([4.6475, 0.0000, 0.0687])
+Test Activations: tensor([4.6674, 0.0000, 0.0623])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 53
+snn_params: {'out_layer': (0.5, 128000.0, 256000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 64000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_53
+Train Accuracy: 0.64432
+Validation Accuracy: 0.717
+Test Accuracy: 0.6975
+Best Epoch: 16
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([55.7131,  0.0000,  1.0884])
+Validation Activations: tensor([3.3135, 0.0000, 0.0640])
+Test Activations: tensor([3.4121, 0.0000, 0.0620])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 29
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_29
+Train Accuracy: 0.66652
+Validation Accuracy: 0.7164
+Test Accuracy: 0.6976
+Best Epoch: 8
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([46.3926,  0.0000,  1.0780])
+Validation Activations: tensor([2.7069, 0.0000, 0.0575])
+Test Activations: tensor([2.7821, 0.0000, 0.0558])
+Feedback Angle: 0
+Feedback Ratio: 0
+
+ID: 69
+snn_params: {'out_layer': (0.5, 64000.0, 128000.0, 1.0, 1, -2), 'hidden_layer': [(0.5, 32000.0, 64000.0, 1.0, -18)]}
+Session Name: grid_search_16bits_low_thmnist_biograd_quant_1_layers_int_16_16_16_aligned_loss_direct_100364571_exp_16bits_low_th_69
+Train Accuracy: 0.66652
+Validation Accuracy: 0.7164
+Test Accuracy: 0.6976
+Best Epoch: 8
+Train Activations FB: tensor([nan, nan])
+Train Activations: tensor([46.3926,  0.0000,  1.0780])
+Validation Activations: tensor([2.7069, 0.0000, 0.0575])
+Test Activations: tensor([2.7821, 0.0000, 0.0558])
+Feedback Angle: 0
+Feedback Ratio: 0
+

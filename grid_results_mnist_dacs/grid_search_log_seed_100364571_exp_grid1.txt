@@ -1,0 +1,85 @@
+Finished grid search in 1984.0531430244446 seconds
+Combination count: 8
+Results sorted by val_acc:
+Seed: 100364571
+
+Params: {'feedback_weights': False, 'float_mode': False, 'hidden_dim_list': [100], 'loss_mode': 'final', 'snn_param': {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 31, 5), 'hidden_layer': [(0.5, 16000.0, 16000.0, 31, -11)]}}
+session_name: mnist_biograd_int_transposed_loss_final_100364571_exp_grid1
+Train_acc: 0.91362 | Val_acc: 0.9475 | Test_acc: 0.9466
+Train activations FB: tensor([0.0050, 0.0050])
+Train activations: tensor([0.5245, 0.0000, 0.0149])
+Val activations: tensor([0.0130, 0.0000, 0.0006])
+Test activations: tensor([0.0130, 0.0000, 0.0006])
+Feedback Angle: [0.0]
+Feedback Ratio: [1.0]
+
+Params: {'feedback_weights': False, 'float_mode': False, 'hidden_dim_list': [100], 'loss_mode': 'final', 'snn_param': {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 31, 5), 'hidden_layer': [(0.5, 16000.0, 16000.0, 31, -11)]}}
+session_name: mnist_biograd_int_transposed_loss_final_100364571_exp_grid1
+Train_acc: 0.91362 | Val_acc: 0.9475 | Test_acc: 0.9466
+Train activations FB: tensor([0.0050, 0.0050])
+Train activations: tensor([0.5245, 0.0000, 0.0149])
+Val activations: tensor([0.0130, 0.0000, 0.0006])
+Test activations: tensor([0.0130, 0.0000, 0.0006])
+Feedback Angle: [0.0]
+Feedback Ratio: [1.0]
+
+Params: {'feedback_weights': False, 'float_mode': False, 'hidden_dim_list': [100], 'loss_mode': 'final', 'snn_param': {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 31, 5), 'hidden_layer': [(0.5, 32000.0, 32000.0, 31, -11)]}}
+session_name: mnist_biograd_int_transposed_loss_final_100364571_exp_grid1
+Train_acc: 0.9167 | Val_acc: 0.9459 | Test_acc: 0.9486
+Train activations FB: tensor([0.0050, 0.0048])
+Train activations: tensor([0.5642, 0.0000, 0.0150])
+Val activations: tensor([0.0144, 0.0000, 0.0006])
+Test activations: tensor([0.0144, 0.0000, 0.0006])
+Feedback Angle: [0.0]
+Feedback Ratio: [1.0]
+
+Params: {'feedback_weights': False, 'float_mode': False, 'hidden_dim_list': [100], 'loss_mode': 'final', 'snn_param': {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 31, 5), 'hidden_layer': [(0.5, 16000.0, 16000.0, 31, -11)]}}
+session_name: mnist_biograd_int_transposed_loss_final_100364571_exp_grid1
+Train_acc: 0.9096 | Val_acc: 0.9434 | Test_acc: 0.9434
+Train activations FB: tensor([0.0053, 0.0052])
+Train activations: tensor([0.5374, 0.0000, 0.0184])
+Val activations: tensor([0.0138, 0.0000, 0.0005])
+Test activations: tensor([0.0138, 0.0000, 0.0005])
+Feedback Angle: [0.0]
+Feedback Ratio: [1.0]
+
+Params: {'feedback_weights': False, 'float_mode': False, 'hidden_dim_list': [100], 'loss_mode': 'final', 'snn_param': {'out_layer': (0.5, 16000.0, 16000.0, 1.0, 31, 5), 'hidden_layer': [(0.5, 8000.0, 8000.0, 31, -11)]}}
+session_name: mnist_biograd_int_transposed_loss_final_100364571_exp_grid1
+Train_acc: 0.90036 | Val_acc: 0.9353 | Test_acc: 0.9347
+Train activations FB: tensor([0.0053, 0.0060])
+Train activations: tensor([0.4840, 0.0000, 0.0244])
+Val activations: tensor([0.0124, 0.0000, 0.0008])
+Test activations: tensor([0.0123, 0.0000, 0.0008])
+Feedback Angle: [0.0]
+Feedback Ratio: [1.0]
+
+Params: {'feedback_weights': False, 'float_mode': False, 'hidden_dim_list': [100], 'loss_mode': 'final', 'snn_param': {'out_layer': (1, 32000.0, 32000.0, 1.0, 31, 5), 'hidden_layer': [(1, 16000.0, 16000.0, 31, -11)]}}
+session_name: mnist_biograd_int_transposed_loss_final_100364571_exp_grid1
+Train_acc: 0.91456 | Val_acc: 0.9238 | Test_acc: 0.9172
+Train activations FB: tensor([0.0056, 0.0055])
+Train activations: tensor([0.0230, 0.0000, 0.0042])
+Val activations: tensor([0.0006, 0.0000, 0.0002])
+Test activations: tensor([0.0006, 0.0000, 0.0003])
+Feedback Angle: [0.01978234059262607]
+Feedback Ratio: [1.0]
+
+Params: {'feedback_weights': False, 'float_mode': False, 'hidden_dim_list': [100], 'loss_mode': 'final', 'snn_param': {'out_layer': (0.5, 32000.0, 32000.0, 1.0, 31, 4), 'hidden_layer': [(0.5, 32000.0, 32000.0, 31, -12)]}}
+session_name: mnist_biograd_int_transposed_loss_final_100364571_exp_grid1
+Train_acc: 0.87246 | Val_acc: 0.9195 | Test_acc: 0.9198
+Train activations FB: tensor([0.0079, 0.0076])
+Train activations: tensor([0.6801, 0.0000, 0.0166])
+Val activations: tensor([0.0175, 0.0000, 0.0005])
+Test activations: tensor([0.0174, 0.0000, 0.0005])
+Feedback Angle: [0.0]
+Feedback Ratio: [1.0]
+
+Params: {'feedback_weights': False, 'float_mode': False, 'hidden_dim_list': [100], 'loss_mode': 'final', 'snn_param': {'out_layer': (0.5, 64000.0, 64000.0, 1.0, 31, 3), 'hidden_layer': [(0.5, 16000.0, 16000.0, 31, -12)]}}
+session_name: mnist_biograd_int_transposed_loss_final_100364571_exp_grid1
+Train_acc: 0.8656 | Val_acc: 0.9008 | Test_acc: 0.8918
+Train activations FB: tensor([0.0088, 0.0078])
+Train activations: tensor([0.6451, 0.0000, 0.0119])
+Val activations: tensor([0.0165, 0.0000, 0.0004])
+Test activations: tensor([0.0166, 0.0000, 0.0004])
+Feedback Angle: [nan]
+Feedback Ratio: [1.0]
+

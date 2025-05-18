@@ -1,0 +1,31 @@
+Experiment Name: shd_snn_float_seeds
+Total combinations: 80 
+Server: snellius
+Finished grid search in 10521.7750852108 seconds
+Average training time: 131.52218861579894 seconds
+
+exp_name: ['shd_snn_float_seeds']
+epochs: [50]
+seed: [100364571, 702546693, 210342476, 712492346, 642731685, 431267089, 613427981, 301420567, 980342676, 416302576]
+train_batch_size: [128]
+test_batch_size: [256]
+float_mode: [True]
+aligned_weights: [False]
+loss_mode: ['direct']
+num_bits: [16]
+weight_init_bits: [16]
+low_precision_weights: [8]
+activation_bits: [16]
+data_params: [{'data_type': 'frame', 'duration': None, 'n_bins': 4, 'frames': 10, 'split_by': 'time'}]
+hidden_dim_list: [[256]]
+hidden_param: [[0.3, 0.3], [0.3, 0.6]]
+output_param: [[0.2, 0.4], [0.3, 0.6]]
+vdecay: [1.0]
+param_factor: [1.0]
+lr_hidden: [0.001]
+lr_output: [0.001, 0.003]
+lr_scheduler: ['none']
+gradient_clip: [0]
+weight_decay: [False]
+loss_function: [('normal', None)]
+loss_precision: [128]

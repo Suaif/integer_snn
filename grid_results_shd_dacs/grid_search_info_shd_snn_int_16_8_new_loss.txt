@@ -1,0 +1,4 @@
+Experiment Name: shd_snn_int_16_8_new_loss
+Total combinations: 162 
+Server: dacs
+Finished grid search in 10502.216651439667 seconds

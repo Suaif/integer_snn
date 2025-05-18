@@ -1,0 +1,34 @@
+Experiment Name: mnist_rsnn_float_v2
+Total combinations: 128 
+Server: dacs
+Finished grid search in 19700.61535024643 seconds
+Average training time: 307.82211489602923 seconds
+
+exp_name: ['mnist_rsnn_float_v2']
+epochs: [50]
+seed: [100364571]
+train_batch_size: [128]
+test_batch_size: [256]
+float_mode: [True]
+aligned_weights: [False]
+loss_mode: ['direct', 'feedback']
+num_bits: [16]
+weight_init_bits: [16]
+low_precision_weights: [11]
+activation_bits: [15]
+data_params: [0]
+hidden_dim_list: [[100]]
+hidden_param: [[0.6, 1.2], [1.0, 1.0], [1.0, 2.0], [0.3, 0.6]]
+output_param: [[0.6, 1.2], [1.0, 1.0], [1.0, 2.0], [0.3, 0.6]]
+vdecay: [0.5]
+vdecay_rec: [0.5]
+param_factor: [1.0]
+lr_hidden: [0.001, 0.003]
+lr_output: [0.001, 0.003]
+lr_rec: [0]
+lr_scheduler: ['none']
+fw_factor: [1.0]
+rec_factor: [1.0]
+gradient_clip: [0]
+loss_function: [('normal', None)]
+loss_precision: [128]

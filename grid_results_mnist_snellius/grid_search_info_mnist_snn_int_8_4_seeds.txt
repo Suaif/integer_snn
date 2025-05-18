@@ -1,0 +1,31 @@
+Experiment Name: mnist_snn_int_8_4_seeds
+Total combinations: 40 
+Server: snellius
+Finished grid search in 29365.7999689579 seconds
+Average training time: 734.1449993550777 seconds
+
+exp_name: ['mnist_snn_int_8_4_seeds']
+epochs: [50]
+seed: [100364571, 702546693, 210342476, 712492346, 642731685, 431267089, 613427981, 301420567, 980342676, 416302576]
+train_batch_size: [128]
+test_batch_size: [256]
+float_mode: [False]
+aligned_weights: [False]
+loss_mode: ['direct']
+num_bits: [8]
+weight_init_bits: [8]
+low_precision_weights: [4]
+activation_bits: [16]
+data_params: [0]
+hidden_dim_list: [[100]]
+hidden_param: [[62.0, 125.0]]
+output_param: [[250.0, 500.0]]
+vdecay: [0.5]
+param_factor: [1.0]
+lr_hidden: [0.000244140625]
+lr_output: [0.0625]
+lr_scheduler: ['none']
+gradient_clip: [2]
+weight_decay: [False, True]
+loss_function: [('normal', None), ('random', (-1, 2))]
+loss_precision: [128]

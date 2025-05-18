@@ -1,0 +1,25 @@
+Experiment Name: shd_rsnn_v3_neurons
+Total combinations: 96 
+Server: snellius
+Finished grid search in 29286.41161751747 seconds
+Average training time: 305.0667877346277 seconds
+
+exp_name: ['shd_rsnn_v3_neurons']
+epochs: [50]
+seed: [100364571]
+float_mode: [True]
+feedback_weights: [False]
+loss_mode: ['direct']
+num_bits: [16]
+weight_init_bits: [16]
+low_precision_weights: [8]
+data_params: [{'data_type': 'frame', 'duration': None, 'n_bins': 4, 'frames': 10, 'split_by': 'time'}]
+hidden_dim_list: [[256], [512]]
+hidden_param: [[2.0, 4.0], [3.0, 3.0], [3.0, 6.0], [6.0, 6.0]]
+output_param: [[1.0, 1.0], [1.0, 2.0]]
+vdecay: [0.5]
+vdecay_rec: [0.5]
+param_factor: [1]
+lr_hidden: [0.01, 0.003]
+lr_output: [0.03, 0.01, 0.003]
+lr_rec: [0.1]

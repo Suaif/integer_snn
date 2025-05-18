@@ -1,0 +1,2 @@
+loss_function,loss_precision,num_bits,weight_init_bits,low_precision_weights,activation_bits,vdecay,hidden_layer,out_layer,lr_hidden,lr_output,lr_scheduler,gradient_clip,weight_decay,train_acc_mean,train_acc_std,val_acc_mean,val_acc_std,test_acc_mean,test_acc_std,id_count
+"('normal', None)",32,8,8,4,16,0.5,"[16.0, 32.0]","[16.0, 32.0]",6.103515625e-05,0.03125,none,1,False,0.9126839999999999,0.04745919772698326,0.95516,0.007889965497741784,0.95191,0.00847931469977248,10

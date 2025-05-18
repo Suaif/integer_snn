@@ -1,0 +1,29 @@
+Experiment Name: shd_rsnn_int_v1
+Total combinations: 360 
+Server: snellius
+Finished grid search in 44956.16877269745 seconds
+Average training time: 124.87824660605854 seconds
+
+exp_name: ['shd_rsnn_int_v1']
+epochs: [50]
+seed: [100364571]
+train_batch_size: [128]
+test_batch_size: [256]
+float_mode: [False]
+aligned_weights: [False]
+loss_mode: ['direct']
+num_bits: [16]
+weight_init_bits: [16]
+low_precision_weights: [8]
+data_params: [{'data_type': 'frame', 'duration': None, 'n_bins': 4, 'frames': 10, 'split_by': 'time'}]
+hidden_dim_list: [[256]]
+hidden_param: [[2000.0, 4000.0], [8000.0, 8000.0], [16000.0, 32000.0]]
+output_param: [[250.0, 500.0], [1000.0, 2000.0], [2000.0, 4000.0]]
+vdecay: [0.5]
+vdecay_rec: [0.5]
+param_factor: [1]
+lr_hidden: [3.814697265625e-06, 9.5367431640625e-07]
+lr_output: [0.25, 1]
+lr_rec: [9.313225746154785e-10, 2.3283064365386963e-10, 1.4551915228366852e-11, 3.637978807091713e-12, 9.094947017729282e-13]
+fw_factor: [1.0]
+rec_factor: [0.00390625, 0.000244140625]

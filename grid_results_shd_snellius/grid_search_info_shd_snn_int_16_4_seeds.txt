@@ -1,0 +1,31 @@
+Experiment Name: shd_snn_int_16_4_seeds
+Total combinations: 40 
+Server: snellius
+Finished grid search in 5349.323360681534 seconds
+Average training time: 133.73308416604996 seconds
+
+exp_name: ['shd_snn_int_16_4_seeds']
+epochs: [50]
+seed: [100364571, 702546693, 210342476, 712492346, 642731685, 431267089, 613427981, 301420567, 980342676, 416302576]
+train_batch_size: [128]
+test_batch_size: [256]
+float_mode: [False]
+aligned_weights: [False]
+loss_mode: ['direct']
+num_bits: [16]
+weight_init_bits: [16]
+low_precision_weights: [4]
+activation_bits: [16]
+data_params: [{'data_type': 'frame', 'duration': None, 'n_bins': 4, 'frames': 10, 'split_by': 'time'}]
+hidden_dim_list: [[256]]
+hidden_param: [[31.0, 62.0]]
+output_param: [[125.0, 250.0]]
+vdecay: [1.0, 0.5]
+param_factor: [1.0]
+lr_hidden: [0.000244140625]
+lr_output: [0.5]
+lr_scheduler: ['none']
+gradient_clip: [0]
+weight_decay: [False]
+loss_function: [('normal', None), ('random', (-1, 2))]
+loss_precision: [128]

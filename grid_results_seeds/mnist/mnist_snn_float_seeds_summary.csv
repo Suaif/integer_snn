@@ -1,0 +1,5 @@
+loss_function,loss_precision,loss_mode,num_bits,weight_init_bits,low_precision_weights,activation_bits,vdecay,hidden_layer,out_layer,lr_hidden,lr_output,lr_scheduler,gradient_clip,weight_decay,train_acc_mean,train_acc_std,val_acc_mean,val_acc_std,test_acc_mean,test_acc_std,id_count
+"('normal', None)",128,feedback,4,4,4,16,1.0,"[0.3, 0.3]","[0.3, 0.6]",0.001,0.001,none,0,True,0.993736,0.0006536597823876498,0.97625,0.0007059272861515721,0.97334,0.0015572054742033622,10
+"('normal', None)",128,feedback,4,4,4,16,1.0,"[0.3, 0.3]","[0.3, 0.6]",0.001,0.001,none,0,False,0.9963200000000001,0.0008004998438475751,0.975,0.000992191737742495,0.9729800000000001,0.0012951190421475862,10
+"('normal', None)",128,direct,4,4,4,16,1.0,"[0.3, 0.3]","[0.3, 0.6]",0.001,0.001,none,0,True,0.993118,0.0013110284343047164,0.9735400000000001,0.0012747112962898121,0.97181,0.00132031141107773,10
+"('normal', None)",128,direct,4,4,4,16,1.0,"[0.3, 0.3]","[0.3, 0.6]",0.001,0.001,none,0,False,0.9946999999999999,0.0008863407922464212,0.9716799999999999,0.0010174041041351584,0.97004,0.0018458361550015843,10

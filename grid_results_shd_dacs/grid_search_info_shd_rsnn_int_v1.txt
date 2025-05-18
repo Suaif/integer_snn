@@ -1,0 +1,4 @@
+Experiment Name: shd_rsnn_int_v1
+Total combinations: 2 
+Server: dacs
+Finished grid search in 2.506176471710205 seconds

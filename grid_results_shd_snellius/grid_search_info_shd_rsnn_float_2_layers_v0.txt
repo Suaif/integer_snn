@@ -1,0 +1,26 @@
+Experiment Name: shd_rsnn_float_2_layers_v0
+Total combinations: 100 
+Server: snellius
+Finished grid search in 32807.8297226429 seconds
+Average training time: 328.07829727649687 seconds
+
+exp_name: ['shd_rsnn_float_2_layers_v0']
+epochs: [50]
+seed: [100364571]
+float_mode: [True]
+feedback_weights: [False]
+loss_mode: ['direct']
+num_bits: [16]
+weight_init_bits: [16]
+low_precision_weights: [8]
+data_params: [{'data_type': 'frame', 'duration': None, 'n_bins': 4, 'frames': 10, 'split_by': 'time'}]
+hidden_dim_list: [[256, 256]]
+hidden_param_0: [[0.2, 0.5], [0.7, 0.7], [0.5, 1.0], [1.5, 1.5], [2.0, 4.0]]
+hidden_param_1: [[0.2, 0.5], [0.7, 0.7], [0.5, 1.0], [1.5, 1.5], [2.0, 4.0]]
+output_param: [[0.3, 0.3], [0.3, 0.6], [1.0, 1.0], [1.0, 2.0]]
+vdecay: [0.5]
+vdecay_rec: [0.5]
+param_factor: [1]
+lr_hidden: [[0.003, 0.003]]
+lr_output: [0.003]
+lr_rec: [[0.001, 0.003]]
