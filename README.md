@@ -32,49 +32,21 @@ sparsity methods to enhance efficiency and hardware applicability.
 ## Table of Contents
 - [Models](#models)
 - [Datasets](#datasets)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Results](#results)
 - [Citation](#citation)
-- [License](#license)
 - [Contact](#contact)
 
-# Models
+## Models
 
 * Spiking Neural Network (SNN)
 * Convolutional Spiking Neural Network (CSNN)
 * Recurrent Spiking Neural Network (RSNN)
 
-# Datasets
+## Datasets
 
 * MNIST
 * Spiking Heidelberg Digits (SHD)
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repo-url>
-   cd biograd
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. (Optional) Set up GPU/neuromorphic hardware support as needed.
-
-## Usage
-
-To train an SNN on MNIST:
-```bash
-python train.py --model SNN --dataset MNIST --precision 8
-```
-
-To reproduce SHD experiments:
-```bash
-python train.py --model RSNN --dataset SHD --precision 12
-```
 
 ## Project Structure
 
